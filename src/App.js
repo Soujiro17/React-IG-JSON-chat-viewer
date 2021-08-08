@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.scss";
 import photo from "./assets/generic-photo.jpg";
 import Message from "./components/Message/Message";
+import { utf8_decode } from "locutus/php/xml";
 
 function App() {
   const [author, setAuthor] = useState("");
@@ -23,7 +24,9 @@ function App() {
         <div className="chat">
           <div className="chat-header">
             <img src={photo} alt="user-profile" className="chat-photo" />
-            <p>{user ? user : "Cargando..."}</p>
+            <p>
+              {user ? utf8_decode(user) : "Esperando la subida del archivo..."}
+            </p>
           </div>
           <div className="chat-body">
             {messages
