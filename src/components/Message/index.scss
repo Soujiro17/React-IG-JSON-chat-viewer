@@ -1,0 +1,30 @@
+.message-received {
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 15px;
+  margin-top: 10px;
+  width: fit-content;
+  margin-left: 15px;
+  max-width: 50%;
+  height: fit-content;
+}
+
+.message-container {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+}
+
+.post-link {
+  display: inline-block;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.time-ago {
+  transition: 1s;
+  font-size: 12px;
+  text-align: end;
+  color: #888;
+}
