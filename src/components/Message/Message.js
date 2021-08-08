@@ -34,7 +34,8 @@ const Message = ({ message, time, type, author }) => {
       return false;
     }
 
-    if (message.content) return <p>{message.content}</p>;
+    if (message.content)
+      return <p>{utf8_decode("Historia respondida:\n" + message.content)}</p>;
     else if (message.share)
       return (
         <a
