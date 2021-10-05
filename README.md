@@ -1,3 +1,36 @@
+# Introducción
+
+El proyecto React-IG-JSON-chat-viewer tiene como objetivo visualizar archivos JSON entregados por Instagram de mejor manera. Cabe destacar que los JSON tienen un formato, el cual es el siguiente:
+
+```
+{
+  "participants": [
+    {
+      "name": "Persona 1"
+    },
+    {
+      "name": "Persona 2"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Persona 1",
+      "timestamp_ms": 1628300384833,
+      "share": {
+        "link": "https://www.../",
+        "share_text": "",
+        "original_content_owner": "..."
+      },
+      "type": "Share",
+      "is_unsent": false
+    },
+```
+
+
+# Link de prueba
+
+<https://pase-de-movilidad-personalizad.herokuapp.com/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
