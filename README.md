@@ -29,7 +29,7 @@ El proyecto React-IG-JSON-chat-viewer tiene como objetivo visualizar archivos JS
 
 # Link de prueba
 
-<https://pase-de-movilidad-personalizad.herokuapp.com/>
+<https://ig-chat-viewer.herokuapp.com/>
 
 # Getting Started with Create React App
 
