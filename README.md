@@ -1,6 +1,6 @@
 # Introducción
 
-El proyecto React-IG-JSON-chat-viewer tiene como objetivo visualizar archivos JSON entregados por Instagram de mejor manera. Cabe destacar que los JSON tienen un formato, el cual es el siguiente:
+El proyecto React-IG-JSON-chat-viewer se desarrolló con el fin de visualizar archivos JSON entregados por Instagram de mejor manera. La página está desarrollada en ReactJS. Cabe destacar que los JSON tienen un formato, el cual es el siguiente:
 
 ```
 {
